@@ -1,6 +1,6 @@
 <?php
 
-use App\Models\Permiso;
+use App\Models\Admin\Permiso;
 use Illuminate\Database\Seeder;
 
 class TablaPermisoSeeder extends Seeder
@@ -12,6 +12,6 @@ class TablaPermisoSeeder extends Seeder
      */
     public function run()
     {
-        factory(Permiso::class)->times(50)->create(); 
+        factory(Permiso::class)->times(3)->create(); 
     }
 }
