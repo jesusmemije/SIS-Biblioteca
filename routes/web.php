@@ -15,8 +15,10 @@
 |
 */
 
-Route::view('/', 'welcome');
-#Route::get('permiso', 'PermisoController@index');
+/*Route::view('/', 'welcome');
+Route::get('permiso', 'PermisoController@index');
 
-#pasar parámetros
-Route::get('permiso/{nombre}/{slug?}', 'PermisoController@index');
+pasar parámetros
+Route::get('permiso/{nombre}/{slug?}', 'PermisoController@index');*/
+
+Route::get('/', 'InicioController@index');
