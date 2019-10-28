@@ -39,7 +39,7 @@ var Biblioteca = function () {
         },
         notificaciones: function(mensaje, titulo, tipo){
             toastr.options = {
-                closeButtom: true,
+                closeButton: true,
                 newestOnTop: true,
                 positionClass: 'toast-top-right',
                 preventDuplicates: true,

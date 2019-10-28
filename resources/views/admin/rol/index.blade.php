@@ -22,7 +22,7 @@ Roles
                 </div>
             </div>
             <div class="box-body">
-                <table class="table table-striped table-bordered table-hover">
+                <table class="table table-striped table-bordered table-hover" id="tabla-data">
                     <thead>
                         <tr>
                             <th>Nombre</th>
